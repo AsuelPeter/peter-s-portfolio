@@ -45,8 +45,8 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-                {site.tagline} I design hands-on STEM experiences, build electronic and renewable
-                energy systems, and mentor teenagers to become confident, curious innovators.
+                {site.tagline} I design hands-on STEM experiences, build systems, and mentor
+                teenagers to become confident, curious innovators.
               </p>
             </Reveal>
 
