@@ -29,10 +29,10 @@ export default function AboutPage() {
           <Reveal className="relative">
             <div className="overflow-hidden rounded-4xl border border-line bg-surface">
               <Image
-                src="/images/about-2.webp"
-                alt={`${site.name} facilitating a session`}
-                width={1200}
-                height={1500}
+                src="/images/about-award.webp"
+                alt={`${site.name} receiving an award`}
+                width={744}
+                height={992}
                 sizes="(min-width: 1024px) 40vw, 90vw"
                 className="h-auto w-full object-cover"
               />

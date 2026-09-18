@@ -7,23 +7,16 @@ export type GalleryItem = {
 
 export const portfolioCategories = [
   "All",
-  "Web Development",
   "STEMR Events",
   "Teen Handler Moments",
   "Electronic Engineering",
   "Community Involvement",
-  "Renewable Energy",
 ] as const;
 
 export const gallery: GalleryItem[] = [
+
   {
-    src: "/images/gallery-nibot-web.webp",
-    title: "NiBOT online platform",
-    category: "Web Development",
-    span: "wide",
-  },
-  {
-    src: "/images/service-engineering.webp",
+    src: "/images/embedded-systems.webp",
     title: "Embedded systems build",
     category: "Electronic Engineering",
   },
@@ -90,11 +83,11 @@ export const gallery: GalleryItem[] = [
   },
   { src: "/images/workshop-12.webp", title: "Project showcase", category: "STEMR Events" },
   { src: "/images/energy-1.webp", title: "Site survey", category: "Renewable Energy" },
-  { src: "/images/energy-2.webp", title: "Panel mounting", category: "Renewable Energy" },
-  { src: "/images/energy-3.webp", title: "Wiring & commissioning", category: "Renewable Energy" },
-  { src: "/images/energy-4.webp", title: "Battery bank", category: "Renewable Energy" },
-  { src: "/images/energy-5.webp", title: "Training installers", category: "Renewable Energy" },
-  { src: "/images/energy-6.webp", title: "Rooftop array", category: "Renewable Energy" },
-  { src: "/images/energy-7.webp", title: "Inverter setup", category: "Renewable Energy" },
-  { src: "/images/energy-8.webp", title: "Solar workshop", category: "Renewable Energy" },
+  { src: "/images/energy-2.webp", title: "Panel transport", category: "Renewable Energy" },
+  { src: "/images/energy-3.webp", title: "Installation team", category: "Renewable Energy" },
+  { src: "/images/energy-4.webp", title: "Site logistics", category: "Renewable Energy" },
+  { src: "/images/energy-5.webp", title: "Solar canopy array", category: "Renewable Energy" },
+  { src: "/images/energy-6.webp", title: "Rooftop installation", category: "Renewable Energy" },
+  { src: "/images/energy-7.webp", title: "STEM mentorship", category: "Teen Handler Moments" },
+  { src: "/images/energy-8.webp", title: "Robotics build", category: "Electronic Engineering" },
 ];

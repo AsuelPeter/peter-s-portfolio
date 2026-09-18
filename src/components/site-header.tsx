@@ -53,7 +53,7 @@ export function SiteHeader() {
               {site.name}
             </span>
             <span className="hidden text-[11px] text-muted sm:block">
-              STEM Educator · Electronic Engineer
+              STEMR Educator · Electronic Engineer
             </span>
           </span>
         </Link>

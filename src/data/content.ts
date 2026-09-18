@@ -12,15 +12,15 @@ export const services: Service[] = [
     title: "STEMR Workshops",
     description:
       "Engaging, hands-on workshops designed to spark curiosity and creativity in teens. I help you plan and strategise your STEM boot camp for maximum impact.",
-    image: "/images/service-workshop.webp",
+    image: "/images/workshop-12.webp",
     icon: "workshop",
   },
   {
     slug: "stem-curriculum",
-    title: "STEM Curriculum Development",
+    title: "STEMR Curriculum Development",
     description:
       "Struggling to pick the best STEM content? I craft educational material that fosters a love for science, technology, engineering, mathematics and robotics.",
-    image: "/images/service-curriculum.webp",
+    image: "/images/workshop-4.webp",
     icon: "curriculum",
   },
   {
@@ -28,7 +28,7 @@ export const services: Service[] = [
     title: "Electronic Engineering",
     description:
       "Designing, building and troubleshooting hardware and embedded systems. I create platforms with the latest look and feel, and can source hardware for you too.",
-    image: "/images/service-engineering.webp",
+    image: "/images/gallery-electronics.webp",
     icon: "chip",
   },
   {
@@ -36,7 +36,7 @@ export const services: Service[] = [
     title: "Renewable Energy",
     description:
       "From procurement to installation and maintenance. If you need a renewable energy expert, I provide reliable, optimal energy solutions.",
-    image: "/images/service-energy.webp",
+    image: "/images/energy-solar-group.webp",
     icon: "solar",
   },
   {
@@ -52,7 +52,7 @@ export const services: Service[] = [
     title: "Technical Writing",
     description:
       "Precision in every word and clarity in every concept — documentation, reports and communication that make complex technology easy to understand.",
-    image: "/images/service-curriculum.webp",
+    image: "/images/gallery-nibot-web.webp",
     icon: "pen",
   },
 ];
@@ -66,7 +66,7 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
   {
-    title: "STEM & Robotics Boot Camp",
+    title: "STEMR & Robotics Boot Camp",
     description:
       "A virtual summer STEM, robotics and AI holiday boot camp for teenagers.",
     image: "/images/project-bootcamp.webp",
@@ -127,7 +127,7 @@ export const experience: Experience[] = [
     company: "NiBOT Engineering",
     role: "Founder",
     description:
-      "Promoting STEM education and innovation through robotics, 3D printing and renewable energy, leading a team building cutting-edge, sustainable solutions.",
+      "Promoting STEMR education and innovation through robotics, 3D printing and renewable energy, leading a team building cutting-edge, sustainable solutions.",
   },
   {
     period: "2022",

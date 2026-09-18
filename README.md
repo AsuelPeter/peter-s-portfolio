@@ -1,6 +1,6 @@
 # Peter Asuelinmhen — Portfolio
 
-A redesigned, optimized Next.js portfolio for **Peter Asuelinmhen** — *STEM Educator || Electronic Engineer || Teen Handler* — (`peter.nibot.africa`).
+A redesigned, optimized Next.js portfolio for **Peter Asuelinmhen** — *STEMR Educator || Electronic Engineer || Teen Handler* — (`peter.nibot.africa`).
 
 ## Tech stack
 

@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
       <Section>
         <div className="mx-auto max-w-3xl">
           <p className="rounded-2xl border border-line bg-surface/60 p-4 text-sm text-muted">
-            <span className="font-semibold text-fg">Last updated:</span> September 26, 2023. If you
+            <span className="font-semibold text-fg">Last updated:</span> September 16, 2026. If you
             do not agree with our policies and practices, please do not use our services. Questions?
             Contact us at{" "}
             <a href={`mailto:${site.email}`} className="text-brand underline">

@@ -1,7 +1,7 @@
 export const site = {
   name: "Peter Asuelinmhen",
-  role: "STEM Educator || Electronic Engineer || Teen Handler",
-  tagline: "Empowering teens in STEM and nurturing future innovators.",
+  role: "STEMR Educator || Electronic Engineer || Teen Handler",
+  tagline: "Empowering teens in STEMR and nurturing future innovators.",
   shortBio:
     "STEM educator and electrical/electronic engineer helping teens and organisations build real-world skills in robotics, renewable energy and technology.",
   description:
@@ -39,7 +39,7 @@ export const headerNav = nav.filter((item) => item.href !== "/renewable-energy")
 
 export const stats = [
   { value: "10+", label: "Years in engineering" },
-  { value: "1,000+", label: "Teens reached" },
-  { value: "6", label: "Programmes offered" },
+  { value: "5,000+", label: "Teens reached" },
+  { value: "20+", label: "Programmes offered" },
   { value: "2", label: "Peer-reviewed publications" },
 ] as const;

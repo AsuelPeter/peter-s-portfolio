@@ -45,7 +45,7 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-                {site.tagline} I design hands-on STEM experiences, build systems, and mentor
+                {site.tagline} I design hands-on STEMR experiences, build systems, and train
                 teenagers to become confident, curious innovators.
               </p>
             </Reveal>
@@ -95,8 +95,8 @@ export default function HomePage() {
                 />
               </div>
               <div className="absolute -bottom-5 -left-5 hidden rounded-2xl border border-line bg-surface/90 px-5 py-4 backdrop-blur sm:block">
-                <p className="font-display text-2xl font-semibold text-brand">NiBOT</p>
-                <p className="text-xs text-muted">Building innovative minds</p>
+                <p className="font-display text-2xl font-semibold text-brand">NiBOTSTEM</p>
+                <p className="text-xs text-muted">Building innovative minds for the future.</p>
               </div>
             </div>
           </Reveal>
@@ -138,19 +138,14 @@ export default function HomePage() {
             />
             <p className="mt-5 text-base leading-relaxed text-muted">
               My love for science, technology, engineering and mathematics has driven my career —
-              from designing embedded systems to building platforms and renewable energy
+              from designing systems to building platforms and energy
               solutions. What fuels me most is sharing that knowledge and nurturing curiosity,
               creativity and problem-solving skills in young people.
             </p>
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {["STEM Education", "Embedded Systems", "Renewable Energy"].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-2xl border border-line bg-surface/60 px-4 py-4 text-sm font-medium text-fg"
-                >
-                  {item}
-                </div>
-              ))}
+            <div className="mt-8">
+              <div className="inline-flex rounded-2xl border border-line bg-surface/60 px-4 py-4 text-sm font-medium text-fg">
+                STEMR Educator
+              </div>
             </div>
             <div className="mt-8">
               <ButtonLink href="/about" variant="outline">
